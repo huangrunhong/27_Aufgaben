@@ -22,7 +22,7 @@ section {
     rgba(63, 36, 8, 0.75) 0%,
     rgba(0, 0, 0, 0.75) 80%
   );
-  padding: 3rem 3rem;
+  padding: 2rem 3rem;
   border-radius: 1.5rem;
   box-shadow: 0 0 1rem rgb(255, 255, 255);
 }
@@ -39,6 +39,9 @@ form {
 label {
   font-size: 1.5rem;
 }
+span {
+  color: red;
+}
 p {
   font-size: 1.5rem;
 }
@@ -49,29 +52,21 @@ div {
 
 input {
   border: 0;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 0.5rem 1rem;
   font-size: 1.5rem;
-  color: white;
+  color: rgb(220, 220, 220);
   border-radius: 2rem;
 }
 h2 {
   margin-top: 2rem;
-  margin-bottom: 1rem;
 }
 .submit {
   margin-top: 1rem;
   font-size: 1.25rem;
-  padding-inline: 2rem;
-  max-width: 200px;
+  padding-inline: 3rem;
   align-self: center;
-  /* background: linear-gradient(
-    0deg,
-    rgb(238, 89, 9) 0%,
-    rgb(244, 143, 1) 40%,
-    rgb(248, 192, 9) 95%
-  ); */
-  background-color: rgb(218, 100, 3);
+  background-color: rgb(218, 142, 0);
   box-shadow: none;
   border: 0;
   color: rgb(255, 255, 255);
